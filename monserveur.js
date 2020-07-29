@@ -1,7 +1,7 @@
-var http = require('http');
+var http = require('express');
 
-var server = http.createServer(function(req, res) {
-  res.writeHead(200);
-  res.end('Salut tout le monde !');
-});
-server.listen(8080);
+//server.js 
+var app = require('express')(); app.route('/hello').get(function(req, res) { 
+  res.send('hello world !'); 
+}); 
+app.listen(8080);
