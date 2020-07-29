@@ -1,1 +1,10 @@
-fichier de description du projet 
+{
+    "name": "my-nodejs-application",
+    "version": "0.0.1",
+    "description": "It's my first nodejs application",
+    "author": "Thavi",
+    "dependencies": {
+        "express": "4.*",
+        "clipboardy": "1.0.*"
+    }
+}
