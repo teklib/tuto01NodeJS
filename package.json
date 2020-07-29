@@ -1,6 +1,6 @@
 {
     "name": "my-nodejs-application",
-    "version": "1.0.0",
+    "version": "0.0.1",
     "description": "It's my first nodejs application",
     "author": "Thavi",
     "dependencies": {
